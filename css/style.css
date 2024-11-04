@@ -153,3 +153,8 @@ span.pass {
 .navbar ul li a:hover{
     color: red;
 }
+
+.hero {
+    background-color: aquamarine;
+}
+
