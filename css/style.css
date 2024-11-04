@@ -1,0 +1,155 @@
+/*css resets*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline;
+    border: 1px solid grey;
+
+}
+
+button {
+    background-color: aquamarine;
+    color: white;
+    width: 100%;
+    cursor:pointer;
+    padding: 12px 14px;
+    margin: 8px 0
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 12px 14px;
+    background-color: rgb(248, 56, 56);
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 12px 0 12px 0;
+    position: relative;
+}
+
+.avatar {
+    width: 25%;
+    border-radius: 50%;
+}
+
+span.pass {
+    float: right;
+    padding-top: 12px;
+}
+
+.entire {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-top: 60px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.form_content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+ /* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.pass {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+.form_container {
+    padding: 16px;
+}
+
+.footer{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.foo{
+    text-align: left;
+}
+
+.navbar{
+    text-align: center;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0 25px;
+    
+}
+
+.navbar ul li {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: red;
+}
