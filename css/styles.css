@@ -27,3 +27,11 @@ footer {
     margin-top: 20px;
     padding-top: 10px;
 }
+
+body {
+    padding: 16px;
+    
+}
+p {
+ margin: 10px;
+}
