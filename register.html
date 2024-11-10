@@ -12,13 +12,13 @@
     <div class="hero">
         <p><h1>CYBERSECURITY A PLATFORM OF KNOWLEDGE</h1></p>
         <div class="navbar">
-            <ul>
+            <!-- <ul>
               <li><a href="index.html">Login</a></li>
               <li><a href="home.html">Home</a></li>
               <li><a href="Topics.html">Topics</a></li>
               <li><a href="Forum.html">Discussion Forum</a></li>
               <li><a href="about_us.html">About us</a></li>
-            </ul>
+            </ul> -->
         </div>
     </div>
 <br><br>
@@ -29,7 +29,7 @@
     <button onclick="document.getElementById('all').style.display='block'" style="width:auto;">Sign Up</button>
     
     <div class="entire animate" id="all">
-        <form action="/action_page.php" method="post" class="form_content">
+        <form class="form_content" id="registrationform">
             <div class="imgcontainer">
                 <span class="close">&times;</span>
                 <img src="images/Avatar2048x2048.jpg" alt="profile_Avatar" class="avatar">
@@ -37,32 +37,32 @@
             <div class=form_container>
                 <P>
                     <label for="name">FirstName</label>
-                    <input type="text" id="name" name="name" autocomplete="on"  >
+                    <input type="text" id="name" name="name" autocomplete="on" required  >
                 
                 </P>
                 <P>
                     <label for="Lname">LastName</label>
-                    <input type="text" id="Lname" name="lname"  autocomplete="on">
+                    <input type="text" id="Lname" name="lname"  autocomplete="on" required>
                 
                 </P>
                 <P>
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email"  autocomplete="on" >
+                    <input type="email" id="email" name="email"  autocomplete="on" required>
 
                 </P>
                 <P>
                     <label for="phoneNo">PhoneNumber</label>
-                    <input type="tel" id="phoneNo" name="phoneNo" autocomplete="on" >
+                    <input type="tel" id="phoneNo" name="phoneNo" autocomplete="on" required>
                 
                 </P>
                 <P>
-                    <label for="Password">Password</label>
-                    <input type="password" id="password" name="password" >
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
                 
                 </P>
                 <P>
-                    <label for="password">Confirm Password</label>
-                    <input type="password" id="password" name="password" >
+                    <label for="confirmpassword">Confirm Password</label>
+                    <input type="password" id="confirmpassword" name="confirmpassword"required >
                 
                 </P>
             
@@ -86,7 +86,7 @@
             <div class="foo"><p><a href="#">Back to Top</a></p></div>
         </footer>
     </div>
-    <script src="main.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
 

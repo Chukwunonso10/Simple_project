@@ -1,0 +1,138 @@
+/* General resets and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 16px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0a74da;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Navbar */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+    background-color: #333;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #0a74da;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+/* Section Headings */
+.container h1 {
+    color: #0a74da;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Sections with Background Colors */
+.sec1, .sec2, .sec3, .sec4 {
+    background-color: aquamarine;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.sec1 {
+    background-color: aquamarine;
+}
+
+.sec2 {
+    background-color: aquamarine;
+}
+
+.sec3 {
+    background-color: aquamarine;
+}
+
+.sec4 {
+    background-color: aquamarine;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.footer a {
+    color: #0a74da;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .foo {
+    margin-top: 0.5rem;
+}
+
+.footer p {
+    margin-top: 1rem;
+}
